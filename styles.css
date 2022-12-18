@@ -1,0 +1,56 @@
+:root {
+    --primary:#222222;
+    --bg-primary:#DEE4E7;
+    --secondary: #37474f;
+    --bg-secondary: #B0BEC5;
+}
+
+    * {
+    margin:0;
+    padding:0;
+    background-color:var(--bg-primary);
+}
+
+.intro {
+    text-align:center;
+    padding:1rem;
+
+}
+
+.intro h1 {
+    font-size:bold;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  
+}
+
+li a  {
+  display: block;
+  text-decoration: none;
+  color:var(--primary);
+  padding:8px 16px;
+
+}
+
+li a:hover {
+    background-color:rgb(196, 190, 190);
+    cursor:pointer;
+    
+}
+.nav-bar {
+    border:4px solid rgb(73, 72, 72);
+    border-radius:15px;
+    display:flex;
+    
+
+
+
+    
+
+}
+
