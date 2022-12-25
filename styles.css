@@ -1,56 +1,205 @@
 :root {
-    --primary:#222222;
-    --bg-primary:#DEE4E7;
-    --secondary: #37474f;
-    --bg-secondary: #B0BEC5;
+    --primary:black;
+    --bg-primary:#bdbdbd;
+    --secondary: #c7bbbc;
+    --bg-secondary: #ced6e0;
 }
 
     * {
     margin:0;
     padding:0;
-    background-color:var(--bg-primary);
+    }
+
+    /*   ****PAUL IRISH RESET****  */
+   html {
+    background-color: var(--bg-primary);
+    box-sizing: border-box;
+    font-size:16px;
+    }
+    
+    *,
+    *:before,
+    *:after {
+        box-sizing: inherit;
+   
 }
 
-.intro {
+h1 {
+    text-align: center;
+    
+}
+.dispatcher  {
+    font-size: 20px;
+    justify-content: space-evenly;
+    background-color: #dd8ea4;
+    border-radius: 2%;
+    margin:3px;
+    box-shadow: 0 8px 6px 1px black;
+    width:300px;
+}
+
+.police-officer {
+        font-size: 20px;
+        justify-content: space-evenly;
+        background-color: #dd8ea4;
+        border-radius: 2%;
+        margin:3px;
+        box-shadow: 0 8px 6px 1px black;
+        width: 300px;
+        
+}
+
+.police-officer-pic {
+    width:200px;
+    margin:20px auto auto auto;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.dispatcher-pic {
+    width: 200px;
+        margin: 20px auto auto auto;
+        display: block;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+   
+}
+.hostage-negotiator-pic {
+    width: 200px;
+        margin: 20px auto auto auto;
+        display: block;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+}
+
+.hostage-negotiator {
+        font-size: 20px;
+        justify-content: space-evenly;
+        background-color: #dd8ea4;
+        border-radius: 2%;
+        margin:3px;
+        box-shadow: 0 8px 6px 1px black;
+        width: 300px;
+}
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 50px;
+    padding:50px;
+    
+
+}
+.dispatcher >p  {
     text-align:center;
-    padding:1rem;
-
+    justify-content:center;
+}
+.police-officer >p {
+    text-align: center;
+    justify-content: center;
 }
 
-.intro h1 {
-    font-size:bold;
-
+.hostage-negotiator >p {
+    text-align: center;
+    justify-content: center;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 200px;
+/*   ****NAV BAR ***   */
+
+li a {
+    display: flex;
+    width: 60px;
+    color: var(--primary);
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 17px;
+    
+}
+    
+
+    
+    
+    ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    display: flex;
+    width: 75%;
+    
+    
   
-}
-
-li a  {
-  display: block;
-  text-decoration: none;
-  color:var(--primary);
-  padding:8px 16px;
-
-}
+  
+    }
 
 li a:hover {
-    background-color:rgb(196, 190, 190);
-    cursor:pointer;
+    background-color: #dd8ea4;
+    border: 2px solid #616161;
+    border-radius: 15px;
+    border-style: outset;
+    cursor: pointer;
+    padding:8px;
+    margin:5px;
+    width: 100%;
+    color: var(--primary);
+
+} 
+.nav-bar  {
+    display :flex;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: var(--bg-secondary);
+    border: 3px solid #424242;
+    border-radius: 35px;
+    box-shadow: 0px 15px 10px -15px #111;
+
+  
+ 
+    
+    
+    
+ 
     
 }
-.nav-bar {
-    border:4px solid rgb(73, 72, 72);
-    border-radius:15px;
-    display:flex;
+.nav-bar a {
+    padding: 8px;
+    text-decoration: none;
     
-
-
-
     
+    
+    
+    
+} 
+.nav-bar-item {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    transition: color 0.3s;
+    margin:1.5rem;
+    padding:1rem;
+    width: 33.33%;
+    
+    
+} 
 
+.coderpic {
+    width: 100%;
+    float: center;
+    text-align: center;
 }
+    
+    
+/*   ****MOBILE RESPONSIVENESS***  */
 
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: left;
+       
+    }
+}
