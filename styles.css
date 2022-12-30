@@ -24,8 +24,22 @@
    
 }
 
-h1 {
+.header-one {
     text-align: center;
+    font-size: 3.5em;
+    
+    
+}
+.coderpic {
+    width: 100%;
+    float: center;
+    text-align: center;
+   
+}
+.profile-picture {
+    border: 3px solid black;
+    border-radius: 30% 8% 30% 8% ;
+    border: hidden;
     
 }
 .dispatcher  {
@@ -36,6 +50,7 @@ h1 {
     margin:3px;
     box-shadow: 0 8px 6px 1px black;
     width:300px;
+   
 }
 
 .police-officer {
@@ -89,8 +104,8 @@ h1 {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    margin: 50px;
-    padding:50px;
+    margin: 70px;
+    padding:20px;
     
 
 }
@@ -111,11 +126,13 @@ h1 {
 
 li a {
     display: flex;
-    width: 60px;
+    width: auto;
     color: var(--primary);
-    justify-content: space-evenly;
+    justify-content: space-;
     text-align: center;
-    font-size: 17px;
+    justify-content: space-evenly;
+    font-size: 20px;
+    overflow: hidden;
     
 }
     
@@ -137,11 +154,11 @@ li a {
 li a:hover {
     background-color: #dd8ea4;
     border: 2px solid #616161;
-    border-radius: 15px;
+    border-radius: 30px;
     border-style: outset;
     cursor: pointer;
-    padding:8px;
-    margin:5px;
+    padding: 40px;
+    margin:10px;
     width: 100%;
     color: var(--primary);
 
@@ -150,26 +167,26 @@ li a:hover {
     display :flex;
     width: 100%;
     justify-content: space-evenly;
+    text-align:center;
     background-color: var(--bg-secondary);
     border: 3px solid #424242;
     border-radius: 35px;
     box-shadow: 0px 15px 10px -15px #111;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    
 
   
- 
-    
-    
-    
- 
     
 }
 .nav-bar a {
-    padding: 8px;
+    padding: 15px;
     text-decoration: none;
-    
-    
-    
-    
+    margin: auto;
+    text-align:center;
+    justify-content: space-between;
+   
     
 } 
 .nav-bar-item {
@@ -184,12 +201,106 @@ li a:hover {
     
 } 
 
-.coderpic {
-    width: 100%;
-    float: center;
-    text-align: center;
-}
+
+    .my-career {
+        display:flex;
+        text-align:center;
+        margin: 5px;
+        padding-top: 50px;
+        font-size: 1.3rem;
+        
+    }
+    .header-two {
+        font-size: 3em;
+        text-align: center;
+        margin: auto;
+        padding: 100px;
+        color: 
+    }
+
+    /*  ****CURRENT STUDIES SECTION****   */
+    .studies-container {
+        display: flex;
+        justify-content: space-between;
+        text-align:center;
+        flex-wrap: nowrap;
+        width: auto;
+        margin: 1px;
+        overflow: hidden;
+        
+       
+       
+    }
+    .html-container {
+        
+    }
+ .html-pic {
+    width: 50%
     
+    
+    
+ }
+          
+ .css-pic {
+    width: 50%
+    
+ }
+  .js-pic {
+    width: 50%
+  }
+
+   .react-pic {
+    width: 50%
+   }
+
+   .info-form {
+    font-size: 20px;
+    padding: 100px;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    
+   }
+   .contact-button {
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bold;
+    text-align:center;
+    border: 3px solid black;
+    border-radius: 10%;
+    
+    
+   }
+   .contact-button:hover {
+    background-color: #dd8ea4;
+    
+   }
+       .entire-form {
+        border: 2px solid black;
+        border:hidden;
+        text-align:center;
+        justify-content: center;
+       }      
+       .linkedin-icon {
+        width: 50px;
+        padding: 10px;
+       }
+        .github-icon {
+            width: 50px;
+            padding: 10px;
+
+        }
+
+        .social-media-icon {
+            display:flex;
+            text-align: center;
+            
+
+        
+
+
+        }
+      
     
 /*   ****MOBILE RESPONSIVENESS***  */
 
