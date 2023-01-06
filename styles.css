@@ -32,7 +32,6 @@
 }
 .coderpic {
     width: 100%;
-    float: center;
     text-align: center;
    
 }
@@ -104,6 +103,7 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    text-align: center;
     margin: 70px;
     padding:20px;
     
@@ -128,11 +128,11 @@ li a {
     display: flex;
     width: auto;
     color: var(--primary);
-    justify-content: space-;
-    text-align: center;
     justify-content: space-evenly;
     font-size: 20px;
     overflow: hidden;
+    text-align: center;
+    justify-content: center;
     
 }
     
@@ -141,10 +141,12 @@ li a {
     
     ul {
     list-style-type: none;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     display: flex;
-    width: 75%;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
     
     
   
@@ -154,20 +156,16 @@ li a {
 li a:hover {
     background-color: #dd8ea4;
     border: 2px solid #616161;
-    border-radius: 30px;
-    border-style: outset;
+    border-radius: 10px;
     cursor: pointer;
-    padding: 40px;
-    margin:10px;
-    width: 100%;
+    
+    
     color: var(--primary);
 
 } 
 .nav-bar  {
-    display :flex;
-    width: 100%;
+    display: block;
     justify-content: space-evenly;
-    text-align:center;
     background-color: var(--bg-secondary);
     border: 3px solid #424242;
     border-radius: 35px;
@@ -176,14 +174,16 @@ li a:hover {
     top: 0;
     width: 100%;
     
+    
+    
 
   
     
 }
 .nav-bar a {
-    padding: 15px;
+    padding: 2px;
     text-decoration: none;
-    margin: auto;
+    margin: 5px;
     text-align: center;
     
    
@@ -192,11 +192,10 @@ li a:hover {
 .nav-bar-item {
     letter-spacing: 2px;
     text-transform: uppercase;
-    text-align: center;
-    transition: color 0.3s;
-    margin:1.5rem;
-    padding:1rem;
-    width: 33.33%;
+   transition: color 0.3s;
+    margin: 1rem;
+    padding: 10px;
+   
     
     
 } 
@@ -211,11 +210,10 @@ li a:hover {
         
     }
     .header-two {
-        font-size: 3em;
+        font-size: 3.5em;
         text-align: center;
         margin: auto;
         padding: 100px;
-        color: 
     }
 
     /*  ****CURRENT STUDIES SECTION****   */
@@ -226,11 +224,11 @@ li a:hover {
         flex-wrap: nowrap;
         width: auto;
         margin: 1px;
+        padding: 50px;
         overflow: hidden;
         
-       
-       
     }
+    
     .html-container {
         
     }
@@ -254,7 +252,6 @@ li a:hover {
    }
 
    .info-form {
-    font-size: 20px;
     padding: 100px;
     margin: auto;
     text-align: center;
@@ -278,8 +275,8 @@ li a:hover {
        .entire-form {
         border: 2px solid black;
         border:hidden;
-        text-align:center;
-        justify-content: center;
+        justify-content: left;
+        
        }      
        .linkedin-icon {
         width: 50px;
@@ -294,11 +291,10 @@ li a:hover {
         .social-media-icon {
             display:flex;
             text-align: center;
+        }
+        #email {
+            margin-left: 30px;
             
-
-        
-
-
         }
       
     
