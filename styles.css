@@ -8,6 +8,7 @@
     * {
     margin:0;
     padding:0;
+    
     }
 
     /*   ****PAUL IRISH RESET****  */
@@ -223,7 +224,7 @@ li a:hover {
         text-align:center;
         flex-wrap: nowrap;
         width: auto;
-        margin: 1px;
+        margin: 5px 10px 150px 5px;
         padding: 50px;
         overflow: hidden;
         
@@ -250,34 +251,40 @@ li a:hover {
    .react-pic {
     width: 50%
    }
+ 
 
-   .info-form {
-    padding: 100px;
-    margin: auto;
-    text-align: center;
-    font-weight: bold;
+   
+
+         
     
-   }
-   .contact-button {
-    font-size: 15px;
-    padding: 10px;
-    font-weight: bold;
-    text-align:center;
-    border: 3px solid black;
-    border-radius: 10%;
+         .button-formatting:hover {
+             background-color: #dd8ea4;
+             
     
-    
-   }
-   .contact-button:hover {
-    background-color: #dd8ea4;
-    
-   }
-       .entire-form {
-        border: 2px solid black;
-        border:hidden;
-        justify-content: left;
+         }
+         .button-container {
+            text-align: center;
+            margin-bottom: 150px;
+           
+           
+         }
+
+         .button-formatting {
+            font-size: 30px;
+            padding: 9px;
+            font-weight: bold;
+            border: 1px solid black;
+            border-radius: 6%;
+            background-color:var(--bg-secondary);
+            text-decoration: none;
+            color:black;
+           
+           
+            
+         }
         
-       }      
+
+       
        .linkedin-icon {
         width: 50px;
         padding: 10px;
